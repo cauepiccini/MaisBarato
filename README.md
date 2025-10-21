@@ -25,6 +25,24 @@ Com ele, é possível adicionar produtos manualmente ou por leitura de código d
 - **Integração:** API REST para consulta de produtos
 - **Armazenamento:** Local e sincronização com nuvem (Supabase)
 
+## Funcionamento do Scanner
+
+- Scanner atualizado e otimizado (AVFoundation + SwiftUI)
+- Consulta em 7 fontes de dados, com cache via Supabase
+- Ordem de busca revisada e mensagem de resultado ajustada
+- Fallback simples para adição manual quando não encontrado
+- Estrutura de banco (Supabase) preparada para cache e histórico
+
+## Fontes consultadas
+
+1. Supabase (cache)
+2. Open Food Facts
+3. Open Products Facts
+4. Open Pet Food Facts
+5. Open Beauty Facts
+6. UPCitemdb
+7. Barcode Lookup
+
 ## 📱 Screenshots
 
 ### 1. Tela Inicial
